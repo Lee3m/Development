@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family);
+  color: var(--font-color);
+  font-size: var(--font-size);
+  font-weight: bold;
+}
+
+:root {
+  --font-color: seashell;
+  --font-size: 22px;
+  --image-height: 200px;
+  --image-width: 300px;
+  --font-family: "Helvetica";
+}
+
+body {
+  background-color: black;
+}
+
+/* NAVBAR */
+
+nav {
+  display: flex;
+  position: sticky;
+  border-bottom: 1px solid seashell;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+nav ul {
+  display: flex;
+  margin-right: 10px;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+  height: 69px;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav img {
+  height: 50px;
+  margin-left: 10px;
+}
+
+/* MAIN */
+
+main {
+  height: 700px;
+  width: 1200px;
+  background-color: black;
+  margin: 0 auto;
+  margin-bottom: 150px;
+}
+
+.mission-image figcaption h2 {
+  color: var(--font-color);
+}
+
+.mission-image article h4 {
+  color: var(--font-color);
+}
+
+.main-photo {
+  text-align: center;
+}
+
+.mission-image figcaption,
+.mission-image article {
+  position: relative;
+  bottom: 450px;
+  background-color: black;
+  padding: 10px;
+}
+
+/* SECTION */
+
+.tom {
+  width: 1000px;
+  display: flex;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tom figure img {
+  width: 300px;
+  height: 200px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.tom figure figcaption {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.tom-main h2,
+.tom-main p {
+  text-align: center;
+  margin-bottom: 10px;
+}
